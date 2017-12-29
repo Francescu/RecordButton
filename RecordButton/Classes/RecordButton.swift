@@ -32,7 +32,7 @@ public class RecordButton: UIButton {
     }
   }
 
-  @IBInspectable open var borderWidth: CGFloat! = 6 {
+  @IBInspectable open var borderWidth: CGFloat = 6 {
     didSet {
       circleBorder.borderWidth = borderWidth
       setNeedsDisplay()

@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     self.progressTimer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(ViewController.updateProgress), userInfo: nil, repeats: true)
   }
 
-  func updateProgress() {
+  @objc func updateProgress() {
 
     let maxDuration = CGFloat(5) // Max duration of the recordButton
 
