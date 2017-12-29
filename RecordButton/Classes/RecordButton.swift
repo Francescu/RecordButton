@@ -95,7 +95,7 @@ public class RecordButton: UIButton {
 
     super.init(frame: frame)
 
-    self.addTarget(self, action: #selector(RecordButton.didTouchDown), for: .touchUpInside)
+//    self.addTarget(self, action: #selector(RecordButton.didTouchDown), for: .touchUpInside)
 
     self.drawButton()
 
@@ -116,7 +116,7 @@ public class RecordButton: UIButton {
   required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
 
-    self.addTarget(self, action: #selector(RecordButton.didTouchDown), for: .touchUpInside)
+//    self.addTarget(self, action: #selector(RecordButton.didTouchDown), for: .touchUpInside)
 
     self.drawButton()
 
